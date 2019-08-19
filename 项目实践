@@ -18,4 +18,22 @@ spring.io
 
 
 2：代码编写
+@Controller
+public class Hello {
 
+    @GetMapping("/hello")
+    public String hello(@RequestParam(name ="name",defaultValue ="world",required =false) String name , Model model){
+        model.addAttribute("name", name);
+        return "hello";
+    }
+}
+
+
+
+3:代码管理
+git
+项目目录下 git init
+git add .
+git commit -m "test"
+git remote origin github地址
+git push origin master
