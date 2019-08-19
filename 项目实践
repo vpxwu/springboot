@@ -1,0 +1,21 @@
+基于springBoot
+基础环境
+jdk1.8
+git
+maven
+sprintBoot
+
+项目pom.xml是管理所有的包，包的依赖
+
+项目开始
+spring.io
+1：基于pom.xml引入
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+引入模板引擎
+
+
+2：代码编写
+
